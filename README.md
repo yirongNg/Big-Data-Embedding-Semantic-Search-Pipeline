@@ -1,5 +1,7 @@
 # Big-Data-Embedding-Semantic-Search-Pipeline
 
+## Architectural Overview
+
 ```mermaid
 graph TD
     A[AWS S3 Bucket: Raw Text Data] -->|Distributed Ingestion| B[PySpark DataFrame]
