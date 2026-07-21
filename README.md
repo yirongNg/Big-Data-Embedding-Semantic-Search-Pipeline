@@ -16,7 +16,7 @@ graph TD
     style B fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#bbf,stroke:#333,stroke-width:2px
 ```
-
+```mermaid
  graph TD
     subgraph "Data Lake (Storage Layer)"
         S3[AWS S3 Bucket]
@@ -70,4 +70,5 @@ graph TD
     style Spark fill:#FFF3E0,stroke:#E65100,stroke-width:2px
     style OpenAI fill:#F3E5F5,stroke:#4A148C,stroke-width:2px
     style Pinecone fill:#E8F5E9,stroke:#1B5E20,stroke-width:2px
+```
 
